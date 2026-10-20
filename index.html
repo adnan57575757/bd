@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#12090c">
+<title>For My Jaan ❤️</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap');
+:root{--bg:#10090c;--panel:#1b0d12;--red:#b9233d;--bright:#ff526e;--gold:#e7c68d;--cream:#fff1e5;--muted:#c6aeb3;--line:rgba(231,198,141,.22)}
+*{box-sizing:border-box}html{background:var(--bg)}body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 50% -10%,#491522 0%,#1b0c12 36%,var(--bg) 75%);color:var(--cream);font-family:'DM Sans',sans-serif;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.12;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.2'/%3E%3C/svg%3E");pointer-events:none;z-index:8}
+button{font:inherit;cursor:pointer}button:focus-visible{outline:2px solid var(--gold);outline-offset:4px}.serif{font-family:'Cormorant Garamond',Georgia,serif}.eyebrow{letter-spacing:.22em;text-transform:uppercase;font-size:.68rem;color:var(--gold)}.wrap{width:min(100% - 34px,700px);margin:auto}
+.page{display:none;min-height:100svh;padding:30px 0 100px;animation:enter .45s ease both}.page.active{display:flex;flex-direction:column}.page-inner{width:100%;margin:auto}.center{text-align:center}.hero-page{justify-content:center;text-align:center;padding:35px 20px;position:relative;overflow:hidden}.hero-page:before{content:"";position:absolute;inset:14px;border:1px solid var(--line);border-radius:180px 180px 20px 20px;pointer-events:none}.hero-page:after{content:"";position:absolute;width:270px;height:270px;border-radius:50%;background:#b9233d;filter:blur(100px);opacity:.18;z-index:-1}
+h1{font:500 clamp(3.4rem,15vw,6rem)/.86 'Cormorant Garamond',Georgia,serif;letter-spacing:-.04em;margin:22px 0}h1 span,.accent{color:var(--bright);font-style:italic}h2{font:500 clamp(2.5rem,10vw,4rem)/.94 'Cormorant Garamond',Georgia,serif;margin:14px 0 12px}h3{font:500 1.65rem 'Cormorant Garamond',Georgia,serif;margin:0 0 8px}p{line-height:1.8}.intro{color:#e2cdd0;max-width:360px;margin:0 auto 26px;font-size:.94rem}.btn{border:1px solid rgba(255,82,110,.8);border-radius:999px;padding:13px 19px;color:white;background:linear-gradient(120deg,#92152e,#c62d49);box-shadow:0 8px 30px #b9233d2b;transition:.2s}.btn:hover{transform:translateY(-2px);box-shadow:0 12px 35px #b9233d55}.btn.secondary{background:transparent;border-color:var(--line);color:var(--gold);box-shadow:none}.btn.small{padding:10px 15px;font-size:.84rem}.button-stack{display:grid;gap:12px;width:min(100%,370px);margin:24px auto}.navbtn{display:flex;align-items:center;gap:13px;text-align:left;padding:16px;background:linear-gradient(120deg,#261018,#170b10);border:1px solid var(--line);border-radius:15px;color:var(--cream);width:100%;transition:.2s}.navbtn:hover{border-color:#b94a60;transform:translateY(-2px);background:#32111d}.navicon{width:39px;height:39px;border-radius:12px;display:grid;place-items:center;background:#642034;color:#ffd8dc;font-size:1.2rem;flex-shrink:0}.navtext{flex:1}.navtext strong{display:block;font-weight:500}.navtext small{display:block;color:var(--muted);margin-top:4px;font-size:.75rem}.arrow{color:var(--gold);font-size:1.2rem}.topbar{width:min(100% - 32px,700px);margin:0 auto 28px;display:flex;align-items:center;justify-content:space-between;gap:10px}.back{background:transparent;border:1px solid var(--line);color:var(--gold);border-radius:999px;padding:9px 13px}.page-number{color:var(--muted);font-size:.72rem;letter-spacing:.1em}.panel{background:linear-gradient(145deg,#291018,#160b10);border:1px solid var(--line);border-radius:20px;padding:22px;position:relative;overflow:hidden}.timeline{border-left:1px solid #a93b50;margin:23px 0 0 7px;padding-left:22px}.event{position:relative;margin:0 0 23px}.event:last-child{margin-bottom:0}.event:before{content:"";position:absolute;left:-27px;top:5px;width:9px;height:9px;border-radius:50%;background:var(--bright);box-shadow:0 0 12px var(--bright)}.event time{color:var(--gold);font-size:.72rem;letter-spacing:.08em}.event p{margin:6px 0 0;color:#e6d6d8;font-size:.92rem}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.photo{margin:0;border:1px solid var(--line);padding:6px;background:#211016;border-radius:13px;transform:rotate(-1deg)}.photo:nth-child(even){transform:rotate(1.4deg);margin-top:13px}.photo img{width:100%;aspect-ratio:4/5;object-fit:cover;display:block;border-radius:8px;background:linear-gradient(140deg,#54202d,#1b1014)}.photo figcaption{font:italic 1.05rem 'Cormorant Garamond',serif;text-align:center;padding:8px 2px 4px;color:#f2d8d6}
+.reasons{display:grid;gap:10px}.reason{width:100%;text-align:left;background:#1c0d13;border:1px solid var(--line);border-radius:14px;padding:15px;color:var(--cream);display:flex;gap:12px;align-items:flex-start}.reason .heart{color:var(--bright);font-size:1.2rem}.reason .answer{display:none;color:#e6c9cf;font-size:.88rem;line-height:1.65;margin-top:8px}.reason.open{background:#32111d;border-color:#a92d48}.reason.open .answer{display:block;animation:enter .3s}
+.letter{background:#f0dfc7;color:#3a2021;border-radius:4px;padding:25px 22px;box-shadow:0 16px 45px #0005;position:relative}.letter:before{content:"";position:absolute;inset:8px;border:1px solid #9f6b60;pointer-events:none}.letter p{font:1rem/1.8 'Cormorant Garamond',Georgia,serif;white-space:pre-line;position:relative}.letter h3{position:relative}
+.cake-wrap{text-align:center;background:radial-gradient(ellipse at 50% 65%,#68203444,transparent 62%);padding:15px 0}.cake{width:190px;height:145px;position:relative;margin:18px auto 28px}.cake-top{position:absolute;top:42px;left:14px;width:162px;height:40px;border-radius:50%;background:#f0c5b4;border:2px solid #f8dfc8;z-index:2}.cake-body{position:absolute;left:14px;top:60px;width:162px;height:65px;background:linear-gradient(90deg,#6b182c,#a92a43,#6d172b);border-radius:0 0 15px 15px;box-shadow:inset 0 -10px #4d1020}.drip{position:absolute;top:64px;left:25px;width:18px;height:27px;background:#f0c5b4;border-radius:0 0 10px 10px;z-index:3;box-shadow:32px 4px #f0c5b4,70px -1px #f0c5b4,110px 5px #f0c5b4}.candle{position:absolute;top:8px;left:91px;width:9px;height:43px;background:repeating-linear-gradient(45deg,#f4d6a5 0 5px,#b9233d 5px 10px);z-index:4;border-radius:3px}.flame{position:absolute;top:-15px;left:-2px;width:14px;height:19px;background:#ffce69;border-radius:70% 30% 60% 40%;box-shadow:0 0 22px #ff9b42;animation:flicker .7s infinite alternate}.cake.blown .flame{display:none}.final-message,.secret-message,.quiz-result{display:none;border:1px dashed #b44b60;border-radius:15px;padding:18px;margin:18px auto 0;color:#f2d8d6;line-height:1.8;background:#1a0c11}.final-message.show,.secret-message.show,.quiz-result.show{display:block;animation:enter .4s}.quiz-options{display:grid;gap:9px;margin-top:18px}.quiz-options button{border:1px solid var(--line);background:#1c0d13;color:var(--cream);border-radius:12px;padding:13px;text-align:left}.quiz-options button:hover{border-color:var(--bright)}.envelope{width:150px;height:105px;margin:30px auto 20px;position:relative;background:#b62c45;border-radius:7px;box-shadow:0 12px 30px #0005;display:grid;place-items:center;font-size:2.5rem}.envelope:before{content:"";position:absolute;inset:0;background:#d64a61;clip-path:polygon(0 0,50% 57%,100% 0);border-radius:7px 7px 0 0}.envelope span{z-index:1;filter:drop-shadow(0 2px 3px #500)}.music-pill{position:fixed;z-index:9;bottom:15px;right:14px;border:1px solid #9c3c50;background:#1c0d13;color:var(--cream);border-radius:999px;padding:11px 15px;box-shadow:0 8px 28px #0008;font-size:.82rem}.music-pill.playing{background:#862039}.float-heart{position:fixed;bottom:-30px;color:#ff526e;opacity:0;animation:floatUp linear forwards;pointer-events:none;z-index:7}@keyframes floatUp{10%{opacity:.7}100%{transform:translateY(-110vh) rotate(35deg);opacity:0}}@keyframes flicker{to{transform:rotate(-9deg) scale(.85);opacity:.8}}@keyframes enter{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}footer{text-align:center;padding:30px 15px 75px;color:#b99da5;font:italic 1.2rem 'Cormorant Garamond',serif}footer span{color:var(--bright)}.note{color:var(--muted);font-size:.76rem;line-height:1.65;text-align:center}.spacer{height:16px}
+@media(min-width:600px){.grid{grid-template-columns:repeat(3,minmax(0,1fr))}.panel{padding:30px}.letter{padding:35px 40px}.page{padding-top:40px}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}}
+</style>
+</head>
+<body>
+<!-- Add your own licensed/royalty-free song as song.mp3 in the same folder. -->
+<audio id="birthdaySong" src="song.mp3" loop preload="none"></audio>
+
+<main>
+<section class="page active hero-page" id="home">
+ <div class="page-inner">
+  <div class="eyebrow">A little something, just for you</div><div style="font-size:2.4rem;margin-top:15px;color:#ff526e;text-shadow:0 0 20px #ff526e">♥</div>
+  <h1>Happy 20th<br><span>Birthday, Jaan.</span></h1>
+  <p class="intro">To my baccha, my koliza, my favourite person — today the world celebrates you, and I get to celebrate the beautiful soul who changed mine.</p>
+  <button class="btn" data-go="menu">Open your surprise ♡</button>
+  <p class="note" style="margin-top:18px">A little world, made just for you.</p>
+ </div>
+</section>
+
+<section class="page" id="menu">
+ <div class="topbar"><button class="back" data-go="home">← Home</button><span class="page-number">YOUR LITTLE WORLD · 01</span></div>
+ <div class="wrap page-inner center">
+  <div class="eyebrow">Choose a little adventure</div><h2>Where should we<br><span class="accent">go first?</span></h2>
+  <p class="intro">Every button opens a new little page. Take your time, birthday girl. ❤️</p>
+  <div class="button-stack">
+   <button class="navbtn" data-go="story"><span class="navicon">♡</span><span class="navtext"><strong>Our Story</strong><small>Where our little forever began</small></span><span class="arrow">›</span></button>
+   <button class="navbtn" data-go="memories"><span class="navicon">📷</span><span class="navtext"><strong>Our Memories</strong><small>A few moments I want to keep</small></span><span class="arrow">›</span></button>
+   <button class="navbtn" data-go="reasons"><span class="navicon">♥</span><span class="navtext"><strong>Reasons I Love You</strong><small>Tap to open each little note</small></span><span class="arrow">›</span></button>
+   <button class="navbtn" data-go="letter"><span class="navicon">✉</span><span class="navtext"><strong>A Letter for You</strong><small>Words from my heart</small></span><span class="arrow">›</span></button>
+   <button class="navbtn" data-go="quiz"><span class="navicon">✧</span><span class="navtext"><strong>Our Little Quiz</strong><small>Let's see what you remember</small></span><span class="arrow">›</span></button>
+   <button class="navbtn" data-go="cake"><span class="navicon">🎂</span><span class="navtext"><strong>Make a Wish</strong><small>Your own virtual birthday cake</small></span><span class="arrow">›</span></button>
+   <button class="navbtn" data-go="secret"><span class="navicon">🔐</span><span class="navtext"><strong>One Last Secret</strong><small>A surprise waiting just for you</small></span><span class="arrow">›</span></button>
+  </div>
+  <p class="note">P.S. Tap the music button in the bottom corner if you want a soundtrack. ♫</p>
+ </div>
+</section>
+
+<section class="page" id="story">
+ <div class="topbar"><button class="back" data-go="menu">← Back to surprises</button><span class="page-number">02 · OUR STORY</span></div>
+ <div class="wrap page-inner">
+  <div class="center"><div class="eyebrow">Chapter one</div><h2>The beginning of <span class="accent">us</span></h2><p class="intro">Some stories begin quietly — with one message, one reply, and a feeling you can't quite explain.</p></div>
+  <article class="panel"><div class="eyebrow">Our little timeline</div><div class="timeline">
+   <div class="event"><time>21 MARCH 2026</time><p>I wished you Eid Mubarak to (only yasrin❤️). You replied, and a simple conversation became something I never wanted to end.</p></div>
+   <div class="event"><time>THEN, LITTLE BY LITTLE</time><p>We kept talking, sharing pieces of our days, and becoming a little more important to each other.</p></div>
+   <div class="event"><time>NOW</time><p>Months later, it feels like my heart has known you for much longer — like you were always meant to feel familiar .</p></div>
+  </div></article>
+  <div class="spacer"></div><div class="center"><button class="btn" data-go="memories">Next: Our memories →</button></div>
+ </div>
+</section>
+
+<section class="page" id="memories">
+ <div class="topbar"><button class="back" data-go="menu">← Back to surprises</button><span class="page-number">03 · MEMORIES</span></div>
+ <div class="wrap page-inner"><div class="center"><div class="eyebrow">Little moments, forever memories</div><h2>My favourite view<br><span class="accent">is you.</span></h2><p class="intro">Swap these sample pictures for your own favourite photos.</p></div>
+  <div class="grid">
+   <figure class="photo"><img src="photos\WhatsApp Image 2026-10-20 at 11.20.02 AM.jpeg" onerror="this.src='https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=600&q=80'" alt="A couple holding hands"><figcaption>My favourite person</figcaption></figure>
+   <figure class="photo"><img src="photos\WhatsApp Image 2026-10-20 at 11.20.04 AM.jpeg" onerror="this.src='https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&w=600&q=80'" alt="Romantic roses"><figcaption>Little things, big feelings</figcaption></figure>
+   <figure class="photo"><img src="photos\WhatsApp Image 2026-10-20 at 11.20.00 AM.jpeg" onerror="this.src='https://images.unsplash.com/photo-1518895949257-7621c3c786d7?auto=format&fit=crop&w=600&q=80'" alt="Flowers"><figcaption>For my begum</figcaption></figure>
+   <figure class="photo"><img src="photos\WhatsApp Image 2026-10-20 at 11.20.01 AM.jpeg" onerror="this.src='https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=600&q=80'" alt="Flowers in soft light"><figcaption>Soft days with you</figcaption></figure>
+   <figure class="photo"><img src="photos\WhatsApp Image 2026-10-20 at 11.20.03 AM (1).jpeg" onerror="this.src='https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=600&q=80'" alt="Golden sunset"><figcaption>More memories to come</figcaption></figure>
+   <figure class="photo"><img src="photos\WhatsApp Image 2026-10-20 at 11.20.04 AM (1).jpeg" onerror="this.src='https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=600&q=80'" alt="A favourite memory"><figcaption>Us, in every universe</figcaption></figure>
+  <!--/div><p class="note">Create a <b>photos</b> folder and add images named us1.jpg through us6.jpg. Add the folder when publishing.</p>*/-->
+  <div class="spacer"></div><div class="center"><button class="btn" data-go="reasons">Next: Reasons I love you →</button></div>
+ </div>
+</section>
+
+<section class="page" id="reasons">
+ <div class="topbar"><button class="back" data-go="menu">← Back to surprises</button><span class="page-number">04 · LITTLE NOTES</span></div>
+ <div class="wrap page-inner"><div class="center"><div class="eyebrow">A list that could never end</div><h2>Reasons I love <span class="accent">you</span></h2><p class="intro">Tap each card to open a little note.</p></div>
+  <div class="reasons">
+   <button class="reason"><span class="heart">♥</span><span><strong>Your heart</strong><span class="answer">You care in ways that make ordinary moments feel precious. Your kindness is one of my favourite things about you.</span></span></button>
+   <button class="reason"><span class="heart">♥</span><span><strong>Your smile</strong><span class="answer">I hope life gives you a thousand reasons to smile, and I hope I get to be one of them.</span></span></button>
+   <button class="reason"><span class="heart">♥</span><span><strong>The way you are</strong><span class="answer">You don't have to be perfect, productive, or happy every second. You are loved simply because you are you.</span></span></button>
+   <button class="reason"><span class="heart">♥</span><span><strong>Our little world</strong><span class="answer">I love our conversations, our names for each other, our silly moments, and the comfort of having you in my life.</span></span></button>
+   <button class="reason"><span class="heart">♥</span><span><strong>All that you're becoming</strong><span class="answer">I believe in your dreams. I want to cheer for you, respect you, and see you become everything you hope to be.</span></span></button>
+  </div><div class="spacer"></div><div class="center"><button class="btn" data-go="letter">Next: Your letter →</button></div>
+ </div>
+</section>
+
+<section class="page" id="letter">
+ <div class="topbar"><button class="back" data-go="menu">← Back to surprises</button><span class="page-number">05 · FROM MY HEART</span></div>
+ <div class="wrap page-inner"><div class="center"><div class="eyebrow">A letter from my heart</div><h2>For you, <span class="accent">always.</span></h2></div>
+  <article class="letter"><h3>My dearest jaan,</h3><p>Happy 20th birthday, my baccha. ❤️
+
+Sometimes I still wonder how one Eid Mubarak message became something this special. We started talking on 21 March, and little by little, you became a part of my everyday life. It feels like I've known you since childhood.
+
+I pray this new chapter brings you peace, good health, beautiful opportunities, and a thousand reasons to smile. May Allah protect you, guide you, ease your worries, and put barakah in everything that's good for you.
+
+I can't promise that every day will be perfect, but I want to keep learning how to love you well — with patience, honesty, respect, and care. I want to celebrate your wins, listen when things are hard, and remind you that you never have to earn your worth.
+
+Thank you for being you, jaan❤️🫂.
+
+With all my love,
+Your Adnan❤️🫂😘</p></article>
+  <div class="spacer"></div><div class="center"><button class="btn" data-go="quiz">Next: Our little quiz →</button></div>
+ </div>
+</section>
+
+<section class="page" id="quiz">
+ <div class="topbar"><button class="back" data-go="menu">← Back to surprises</button><span class="page-number">06 · JUST FOR FUN</span></div>
+ <div class="wrap page-inner center"><div class="eyebrow">Let's see what you remember</div><h2>Our little <span class="accent">quiz</span></h2><p class="intro">A tiny question about the start of our story. Pick your answer!</p>
+  <div class="panel" style="text-align:left"><h3>what is your husband name</h3><div class="quiz-options">
+   <button data-answer="right">Adnan❤️🫂😘</button><button data-answer="right">MD Adnan💌</button><button data-answer="right">MR. Muhammed Adnan🫂</button>
+  </div><div class="quiz-result" id="quizResult"></div></div>
+  <p class="note">You can change this question and the answers in index.html to make a quiz only the two of you can solve.</p>
+  <div class="spacer"></div><button class="btn" data-go="cake">Next: Make a wish →</button>
+ </div>
+</section>
+
+<section class="page" id="cake">
+ <div class="topbar"><button class="back" data-go="menu">← Back to surprises</button><span class="page-number">07 · BIRTHDAY WISH</span></div>
+ <div class="wrap page-inner center"><div class="eyebrow">Make a little wish</div><h2>One candle.<br><span class="accent">A thousand wishes.</span></h2><p class="intro">Close your eyes, make a wish, then tap the button to blow out your candle. ✨</p>
+  <div class="cake-wrap"><div class="cake" id="cakeArt" aria-label="Illustrated birthday cake with one candle"><div class="candle"><div class="flame"></div></div><div class="cake-top"></div><div class="cake-body"></div><div class="drip"></div></div>
+   <button class="btn" id="blowBtn">Blow out the candle ✨</button>
+   <p class="final-message" id="finalMessage">May every beautiful dua you make find its way to you. May this year be gentle with your heart, generous with happiness, and full of reasons to be proud of yourself. Happy birthday, my love. ❤️</p>
+  </div><div class="spacer"></div><button class="btn" data-go="secret">One last surprise →</button>
+ </div>
+</section>
+
+<section class="page" id="secret">
+ <div class="topbar"><button class="back" data-go="menu">← Back to surprises</button><span class="page-number">08 · JUST BETWEEN US</span></div>
+ <div class="wrap page-inner center"><div class="eyebrow">Psst… one last thing</div><h2>A tiny secret <span class="accent">for you</span></h2><p class="intro">Not every surprise needs a reason. Sometimes a heart just has one more thing to say.</p>
+  <div class="envelope"><span>♥</span></div><button class="btn secondary" id="secretBtn">Open your secret letter ✉</button>
+  <div class="secret-message" id="secretMessage">If I could choose a thousand times, I would still hope to meet you, know you, and choose you — Abhi me apke sath nhi hu lekin inshaallah ek din jrur apke sath ye special day apke sath celebrate karenge. Me apke liye har ek chiz karunga chahe jo v ho ap khush rahe wo mera 1st priorty he (kuch v bura laga ho maf kar dijiyega meri jaan 🫂 apko pata nhi me apko kitna pyar karta hu ap soch v nhi sakte na hi imgine) , Once again happpppppppppppyyyyyyyyyyyyyyyyyyyyy birthdayyyyyyyyyyyyyyyyy meri jaaaaaannnnnnn😘❤️🫂 i love you forever n ever n ever and yeah i misssss you alotttttt 🫂😭😭❤️</div>
+  <div class="spacer"></div><button class="btn" data-go="home">Replay from the beginning ↺</button>
+ </div>
+</section>
+</main>
+<footer>Made with all my heart <span>♥</span><br><small style="font: .68rem 'DM Sans',sans-serif;letter-spacing:.12em">HAPPY 20TH BIRTHDAY, MY LOVE</small></footer>
+<button class="music-pill" id="musicBtn" aria-pressed="false">♫ Play our song</button>
+
+<script>
+const $ = s => document.querySelector(s);
+const $$ = s => [...document.querySelectorAll(s)];
+const pages = $$('.page');
+function goTo(id){
+ const target = document.getElementById(id);
+ if(!target || !target.classList.contains('page')) return;
+ pages.forEach(p => p.classList.toggle('active', p.id === id));
+ window.scrollTo({top:0,behavior:'instant'});
+ history.replaceState(null,'','#'+id);
+}
+$$('[data-go]').forEach(btn => btn.addEventListener('click',()=>{goTo(btn.dataset.go);if(btn.dataset.go==='menu')burstHearts(12)}));
+function burstHearts(count=15){
+ for(let i=0;i<count;i++){
+  const h=document.createElement('span');h.className='float-heart';h.textContent=Math.random()>.25?'♥':'✦';
+  h.style.left=Math.random()*100+'vw';h.style.fontSize=(12+Math.random()*18)+'px';h.style.animationDuration=(3.5+Math.random()*3)+'s';document.body.appendChild(h);setTimeout(()=>h.remove(),7000);
+ }
+}
+$$('.reason').forEach(card=>card.addEventListener('click',()=>{const opened=card.classList.toggle('open');card.setAttribute('aria-expanded',String(opened));if(opened)burstHearts(4)}));
+$('#blowBtn').addEventListener('click',()=>{
+ const cake=$('#cakeArt'),msg=$('#finalMessage');
+ if(cake.classList.contains('blown'))return;
+ cake.classList.add('blown');msg.classList.add('show');$('#blowBtn').textContent='Wish sent with love ♥';burstHearts(32);
+});
+$('#secretBtn').addEventListener('click',()=>{
+ const msg=$('#secretMessage'),opened=msg.classList.toggle('show');
+ $('#secretBtn').textContent=opened?'Keep this close to your heart ♥':'Open your secret letter ✉';if(opened)burstHearts(15);
+});
+$$('[data-answer]').forEach(btn=>btn.addEventListener('click',()=>{
+ const result=$('#quizResult');result.classList.add('show');
+ if(btn.dataset.answer==='right'){result.textContent='Correct, jaan! 💌❤️ 7croreeeeeeee😁👏';burstHearts(12)}
+ else result.textContent='Not quite, birthday girl 😘 Try again — think of our Eid Mubarak message!';
+}));
+const audio=$('#birthdaySong'),musicBtn=$('#musicBtn');
+musicBtn.addEventListener('click',async()=>{
+ if(audio.paused){
+  try{await audio.play();musicBtn.textContent='♫ Pause our song';musicBtn.classList.add('playing');musicBtn.setAttribute('aria-pressed','true')}
+  catch(e){alert('Add your audio file named song.mp3 beside index.html, then try again. Phones require a tap before music can play.')}
+ }else{audio.pause();musicBtn.textContent='♫ Play our song';musicBtn.classList.remove('playing');musicBtn.setAttribute('aria-pressed','false')}
+});
+const initial=location.hash.slice(1);if(initial&&document.getElementById(initial)?.classList.contains('page'))goTo(initial);
+setTimeout(()=>burstHearts(8),700);
+</script>
+</body>
+</html>
